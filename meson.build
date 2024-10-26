@@ -22,3 +22,5 @@ libunp = library('unp', unp_srcs,
   include_directories: inc_dir, 
   dependencies: [thread_dep, resolv_dep]
 )
+
+subdir('intro')
